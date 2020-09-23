@@ -34,7 +34,7 @@ def _get_terminal_size_windows():
             sizey = bottom - top + 1
             return sizex, sizey
     except:
-        return 80, 25
+        return 80, 24
 
 
 def home(sizex, sizey):
